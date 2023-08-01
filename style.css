@@ -39,6 +39,10 @@ body {
   width: 90vw;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
 li {
   height: 45px;
   margin-bottom: 10px;
@@ -48,14 +52,16 @@ li {
   margin-bottom: 25px;
 }
 
-li div {
 
+.anchor-website {
+  margin-right: 10px;
 }
 
 a {
   cursor: pointer;
+  font-size: 1rem;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 20px;
   text-decoration: none;
   color: white;
   background-color: var(--morado);
