@@ -39,6 +39,7 @@ body {
   width: 320px;
   color: var(--morado);
   font-weight: 700;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -76,15 +77,22 @@ li div {
   margin-top: 10px;
 }
 
+li p {
+  margin: 0;
+}
 .anchor-website {
   margin-right: 10px;
 }
 
 a {
+  display: inline-block;
   cursor: pointer;
   font-size: 1rem;
   border-radius: 5px;
-  padding: 5px 20px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  padding-top: 8px;
   text-decoration: none;
   color: white;
   background-color: var(--morado);
@@ -96,4 +104,38 @@ a {
 
 @media (min-width: 900px) {
 
+  .container {
+    width: 90vw;
+  }
+
+  h1 {
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: left;
+    text-decoration: underline;
+    margin-bottom: 25px;
+  }
+
+  li {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 15px;
+    margin: 5px 0;
+  }
+
+  li div {
+    display: inline;
+    margin: 0;
+  }
+
+  li p {
+    display: inline-block;
+  }
+
+  li a {
+
+  }
 }
