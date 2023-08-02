@@ -36,8 +36,24 @@ body {
 }
 
 .container {
-  width: 90vw;
+  border: 1px solid black;
+  width: 320px;
+  color: var(--morado);
+  font-weight: 700;
 }
+
+h1 {
+  color: var(--rosa);
+  margin-bottom: 40px;
+}
+
+
+.persiana {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 
 ol {
   list-style-type: decimal;
