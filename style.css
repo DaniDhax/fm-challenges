@@ -58,7 +58,8 @@ h2 {
 .persiana {
   font-size: 1.7rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin: 10px 0px;
+  padding-top: 25px;
 }
 
 ol {
@@ -70,7 +71,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 li div {
@@ -98,7 +99,9 @@ a {
   background-color: var(--morado);
 }
 
-
+.ejercicio-numero {
+  color: var(--rosa);
+}
 
 
 
