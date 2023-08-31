@@ -39,7 +39,7 @@ body {
   width: 320px;
   color: var(--morado);
   font-weight: 700;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 h1 {
@@ -103,7 +103,17 @@ a {
   color: var(--rosa);
 }
 
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--morado);
+  color: var(--crema);
+  padding: 5px 10px;
+}
 
+button:hover {
+  background-color: var(--rosa);
+}
 
 @media (min-width: 900px) {
 
